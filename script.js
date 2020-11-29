@@ -6,13 +6,13 @@ const resetButton = document.querySelector("#reset");
 
 // 按下 +1 的按鈕事件
 addButton.addEventListener("click", function() {
-    count = count + 1;
+    count = count + 2;
     value.textContent = count;
 });
 
 // 按下 -1 的按鈕事件
 minusButton.addEventListener("click", function() {
-    count = count - 1;
+    count = count - 2;
     value.textContent = count;
 });
 
